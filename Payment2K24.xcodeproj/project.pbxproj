@@ -7,15 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D23D5602CF249BA00F26825 /* SQLiteBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D55B2CF249BA00F26825 /* SQLiteBase.swift */; };
+		1D23D5612CF249BA00F26825 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D55D2CF249BA00F26825 /* SQLTable.swift */; };
+		1D23D5622CF249BA00F26825 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D55E2CF249BA00F26825 /* SQLiteDB.swift */; };
+		1D23D5632CF249BA00F26825 /* CloudDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D55F2CF249BA00F26825 /* CloudDB.swift */; };
+		1D23D56B2CF24BD300F26825 /* Payment.db in Resources */ = {isa = PBXBuildFile; fileRef = 1D23D56A2CF24BD300F26825 /* Payment.db */; };
+		1D23D56F2CF24C2700F26825 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D23D56D2CF24C2700F26825 /* libsqlite3.tbd */; };
+		1D23D5702CF24C2700F26825 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D23D56E2CF24C2700F26825 /* libsqlite3.0.tbd */; };
+		1D23D5722CF24D3100F26825 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D5712CF24D3100F26825 /* User.swift */; };
+		1D23D5742CF24D4100F26825 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D5732CF24D4100F26825 /* DBManager.swift */; };
+		1D23D5762CF24D4800F26825 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D5752CF24D4800F26825 /* Account.swift */; };
+		1D23D5792CF2515600F26825 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D5782CF2515600F26825 /* HomeScreenViewController.swift */; };
+		1D23D57B2CF251B100F26825 /* BaseScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D23D57A2CF251B100F26825 /* BaseScreen.storyboard */; };
+		1D23D57D2CF252D300F26825 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23D57C2CF252D300F26825 /* ValidationService.swift */; };
 		1DD8AB172CEF93C500E275D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB162CEF93C500E275D1 /* AppDelegate.swift */; };
 		1DD8AB202CEF93C700E275D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8AB1F2CEF93C700E275D1 /* Assets.xcassets */; };
 		1DD8AB232CEF93C700E275D1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8AB222CEF93C700E275D1 /* Base */; };
 		1DD8AB322CEF94E500E275D1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8AB312CEF94E500E275D1 /* Colors.xcassets */; };
 		1DD8AB352CEF952D00E275D1 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB342CEF952C00E275D1 /* LoginScreenViewController.swift */; };
 		1DD8AB372CEF953D00E275D1 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8AB362CEF953D00E275D1 /* LoginScreen.storyboard */; };
+		1DD8AB3B2CEF9B2200E275D1 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB3A2CEF9B2200E275D1 /* PaymentViewController.swift */; };
+		1DD8AB3D2CEF9B4C00E275D1 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB3C2CEF9B4C00E275D1 /* Storyboarded.swift */; };
+		1DD8AB422CEF9C7900E275D1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB412CEF9C7900E275D1 /* Constants.swift */; };
+		1DD8AB442CEF9CAD00E275D1 /* PaymentTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB432CEF9CAD00E275D1 /* PaymentTextField.swift */; };
+		1DD8AB462CEF9CBE00E275D1 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB452CEF9CBE00E275D1 /* PaymentButton.swift */; };
+		1DD8AB482CEF9CCF00E275D1 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB472CEF9CCF00E275D1 /* PaymentView.swift */; };
+		1DD8AB4A2CEF9CD900E275D1 /* PaymentImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB492CEF9CD900E275D1 /* PaymentImageView.swift */; };
+		1DD8AB4C2CEF9CE700E275D1 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB4B2CEF9CE700E275D1 /* UITextField+Extensions.swift */; };
+		1DD8AB4E2CEF9CFA00E275D1 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8AB4D2CEF9CFA00E275D1 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D23D55B2CF249BA00F26825 /* SQLiteBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteBase.swift; sourceTree = "<group>"; };
+		1D23D55C2CF249BA00F26825 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		1D23D55D2CF249BA00F26825 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		1D23D55E2CF249BA00F26825 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		1D23D55F2CF249BA00F26825 /* CloudDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudDB.swift; sourceTree = "<group>"; };
+		1D23D56A2CF24BD300F26825 /* Payment.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Payment.db; sourceTree = "<group>"; };
+		1D23D56D2CF24C2700F26825 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1D23D56E2CF24C2700F26825 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		1D23D5712CF24D3100F26825 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1D23D5732CF24D4100F26825 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		1D23D5752CF24D4800F26825 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		1D23D5782CF2515600F26825 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreenViewController.swift; path = Payment2K24/Helpers/HomeScreenViewController.swift; sourceTree = SOURCE_ROOT; };
+		1D23D57A2CF251B100F26825 /* BaseScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BaseScreen.storyboard; sourceTree = "<group>"; };
+		1D23D57C2CF252D300F26825 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 		1DD8AB132CEF93C500E275D1 /* Payment2K24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payment2K24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD8AB162CEF93C500E275D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DD8AB1F2CEF93C700E275D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +60,15 @@
 		1DD8AB312CEF94E500E275D1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1DD8AB342CEF952C00E275D1 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		1DD8AB362CEF953D00E275D1 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		1DD8AB3A2CEF9B2200E275D1 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		1DD8AB3C2CEF9B4C00E275D1 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		1DD8AB412CEF9C7900E275D1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1DD8AB432CEF9CAD00E275D1 /* PaymentTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTextField.swift; sourceTree = "<group>"; };
+		1DD8AB452CEF9CBE00E275D1 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		1DD8AB472CEF9CCF00E275D1 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		1DD8AB492CEF9CD900E275D1 /* PaymentImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentImageView.swift; sourceTree = "<group>"; };
+		1DD8AB4B2CEF9CE700E275D1 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		1DD8AB4D2CEF9CFA00E275D1 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +76,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D23D56F2CF24C2700F26825 /* libsqlite3.tbd in Frameworks */,
+				1D23D5702CF24C2700F26825 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D23D5592CF2495800F26825 /* ResoucreDB */ = {
+			isa = PBXGroup;
+			children = (
+				1D23D56A2CF24BD300F26825 /* Payment.db */,
+			);
+			path = ResoucreDB;
+			sourceTree = "<group>";
+		};
+		1D23D55A2CF2496D00F26825 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1D23D55C2CF249BA00F26825 /* Bridging-Header.h */,
+				1D23D55F2CF249BA00F26825 /* CloudDB.swift */,
+				1D23D55B2CF249BA00F26825 /* SQLiteBase.swift */,
+				1D23D55E2CF249BA00F26825 /* SQLiteDB.swift */,
+				1D23D55D2CF249BA00F26825 /* SQLTable.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1D23D56C2CF24C2700F26825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D23D56E2CF24C2700F26825 /* libsqlite3.0.tbd */,
+				1D23D56D2CF24C2700F26825 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D23D5772CF2514000F26825 /* HomeScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D23D5782CF2515600F26825 /* HomeScreenViewController.swift */,
+			);
+			path = HomeScreenModule;
+			sourceTree = "<group>";
+		};
 		1DD8AB0A2CEF93C500E275D1 = {
 			isa = PBXGroup;
 			children = (
 				1DD8AB152CEF93C500E275D1 /* Payment2K24 */,
 				1DD8AB142CEF93C500E275D1 /* Products */,
+				1D23D56C2CF24C2700F26825 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				1DD8AB212CEF93C700E275D1 /* LaunchScreen.storyboard */,
+				1D23D57A2CF251B100F26825 /* BaseScreen.storyboard */,
 				1DD8AB332CEF950000E275D1 /* LoginScreenModule */,
+				1D23D5772CF2514000F26825 /* HomeScreenModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -93,6 +180,17 @@
 		1DD8AB2D2CEF943F00E275D1 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1DD8AB3A2CEF9B2200E275D1 /* PaymentViewController.swift */,
+				1DD8AB3C2CEF9B4C00E275D1 /* Storyboarded.swift */,
+				1D23D5592CF2495800F26825 /* ResoucreDB */,
+				1D23D55A2CF2496D00F26825 /* SupportingFiles */,
+				1DD8AB3E2CEF9C2B00E275D1 /* PaymentUIComponents */,
+				1DD8AB402CEF9C5600E275D1 /* Extensions */,
+				1DD8AB412CEF9C7900E275D1 /* Constants.swift */,
+				1DD8AB3F2CEF9C5300E275D1 /* Validations */,
+				1D23D5712CF24D3100F26825 /* User.swift */,
+				1D23D5732CF24D4100F26825 /* DBManager.swift */,
+				1D23D5752CF24D4800F26825 /* Account.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -129,6 +227,34 @@
 				1DD8AB362CEF953D00E275D1 /* LoginScreen.storyboard */,
 			);
 			path = LoginScreenModule;
+			sourceTree = "<group>";
+		};
+		1DD8AB3E2CEF9C2B00E275D1 /* PaymentUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1DD8AB432CEF9CAD00E275D1 /* PaymentTextField.swift */,
+				1DD8AB452CEF9CBE00E275D1 /* PaymentButton.swift */,
+				1DD8AB472CEF9CCF00E275D1 /* PaymentView.swift */,
+				1DD8AB492CEF9CD900E275D1 /* PaymentImageView.swift */,
+			);
+			path = PaymentUIComponents;
+			sourceTree = "<group>";
+		};
+		1DD8AB3F2CEF9C5300E275D1 /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				1D23D57C2CF252D300F26825 /* ValidationService.swift */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		1DD8AB402CEF9C5600E275D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1DD8AB4B2CEF9CE700E275D1 /* UITextField+Extensions.swift */,
+				1DD8AB4D2CEF9CFA00E275D1 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +318,9 @@
 				1DD8AB322CEF94E500E275D1 /* Colors.xcassets in Resources */,
 				1DD8AB202CEF93C700E275D1 /* Assets.xcassets in Resources */,
 				1DD8AB372CEF953D00E275D1 /* LoginScreen.storyboard in Resources */,
+				1D23D56B2CF24BD300F26825 /* Payment.db in Resources */,
 				1DD8AB232CEF93C700E275D1 /* Base in Resources */,
+				1D23D57B2CF251B100F26825 /* BaseScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +331,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD8AB422CEF9C7900E275D1 /* Constants.swift in Sources */,
 				1DD8AB352CEF952D00E275D1 /* LoginScreenViewController.swift in Sources */,
+				1DD8AB3B2CEF9B2200E275D1 /* PaymentViewController.swift in Sources */,
+				1DD8AB4C2CEF9CE700E275D1 /* UITextField+Extensions.swift in Sources */,
+				1D23D5722CF24D3100F26825 /* User.swift in Sources */,
+				1D23D5762CF24D4800F26825 /* Account.swift in Sources */,
+				1D23D57D2CF252D300F26825 /* ValidationService.swift in Sources */,
+				1D23D5602CF249BA00F26825 /* SQLiteBase.swift in Sources */,
+				1DD8AB462CEF9CBE00E275D1 /* PaymentButton.swift in Sources */,
+				1D23D5792CF2515600F26825 /* HomeScreenViewController.swift in Sources */,
 				1DD8AB172CEF93C500E275D1 /* AppDelegate.swift in Sources */,
+				1DD8AB4A2CEF9CD900E275D1 /* PaymentImageView.swift in Sources */,
+				1D23D5632CF249BA00F26825 /* CloudDB.swift in Sources */,
+				1DD8AB482CEF9CCF00E275D1 /* PaymentView.swift in Sources */,
+				1D23D5742CF24D4100F26825 /* DBManager.swift in Sources */,
+				1DD8AB4E2CEF9CFA00E275D1 /* UIColor+Extensions.swift in Sources */,
+				1DD8AB442CEF9CAD00E275D1 /* PaymentTextField.swift in Sources */,
+				1DD8AB3D2CEF9B4C00E275D1 /* Storyboarded.swift in Sources */,
+				1D23D5612CF249BA00F26825 /* SQLTable.swift in Sources */,
+				1D23D5622CF249BA00F26825 /* SQLiteDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationcollections.Payment2K24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Payment2K24/Helpers/SupportingFiles/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,6 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationcollections.Payment2K24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Payment2K24/Helpers/SupportingFiles/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
